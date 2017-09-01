@@ -1,0 +1,30 @@
+{
+  "name": "react-native-promptpay-qr",
+  "version": "0.0.1",
+  "description": "Simple QRcode for Promptpay in React native",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zondezatera/react-native-promptpay-qr.git"
+  },
+  "keywords": [
+    "promptpay",
+    "react",
+    "react native"
+  ],
+  "author": "Kitti Pariyaakkarakul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zondezatera/react-native-promptpay-qr/issues"
+  },
+  "homepage": "https://github.com/zondezatera/react-native-promptpay-qr#readme",
+  "peerDependencies": {
+    "react-native": ">=0.46.0",
+    "react": "16.0.0-alpha.12",
+    "prop-types": "^15.5.8"
+  },
+  "dependencies": {
+    "promptpay-qr": "^0.4.1",
+    "react-native-qrcode": "^0.2.6"
+  }
+}
