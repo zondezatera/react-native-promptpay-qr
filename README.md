@@ -1,5 +1,18 @@
 # react-native-promptpay-qr
 
+[![NPM version][npm-image]][npm-url]
+![react-native](https://img.shields.io/badge/react--native-%3E%3D_0.46.0-green.svg)
+![react](https://img.shields.io/badge/react-%3E16.0.0-green.svg)
+[![node version][node-image]][node-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: http://img.shields.io/npm/v/react-native-promptpay-qr.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/react-native-promptpay-qr
+[node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
+[node-url]: http://nodejs.org/download/
+[download-image]: https://img.shields.io/npm/dm/react-native-promptpay-qr.svg?style=flat-square
+[download-url]: https://npmjs.org/package/react-native-promptpay-qr
+
 Simple QR code for Promptpay in React native
 
 ## Getting Started
@@ -46,3 +59,7 @@ AppRegistry.registerComponent('PromptPayQR', () => PromptPayQR)
 
 - https://github.com/dtinth/promptpay-qr
 - https://github.com/cssivision/react-native-qrcode
+
+## License
+
+react-native-promptpay-qr is released under the MIT license.
