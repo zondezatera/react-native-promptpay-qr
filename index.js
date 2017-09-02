@@ -9,7 +9,7 @@ class PromptPayQR extends Component {
     payCode: PropTypes.string,
     amount: PropTypes.number,
     size: PropTypes.number,
-    fgColor: PropTypes.string,
+    bgColor: PropTypes.string,
     fgColor: PropTypes.string,
     style: PropTypes.oneOfType([
       PropTypes.object,
