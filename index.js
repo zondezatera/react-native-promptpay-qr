@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { AppRegistry, StyleSheet, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import generatePayload from 'promptpay-qr'
 import QRCode from 'react-native-qrcode'
   
@@ -19,13 +19,13 @@ class PromptPayQR extends Component {
   static defaultProps = {
     payCode: '',
     amount: 0,
-    size: 200,
+    size: 128,
     bgColor: 'black',
     fgColor: 'white'
   }
   render() {
-    const {style, size, bgColor, fgColor} = this.props
-    const promptpayCode = generatePayload(payCode, { amount })
+    const {style, size, bgColor, fgColor, payCode, amount } = this.props
+    const promptpayCode = generatePayload(payCode, { amount: amount })
     return (
       <View style={[styles.container, style]}>
         <QRCode
@@ -46,7 +46,5 @@ const styles = StyleSheet.create({
       justifyContent: 'center'
   }
 })
-
-AppRegistry.registerComponent('PromptPayQR', () => PromptPayQR)
 
 export default PromptPayQR
