@@ -1,6 +1,6 @@
 {
   "name": "react-native-promptpay-qr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple QRcode for Promptpay in React native",
   "main": "index.js",
   "repository": {

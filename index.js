@@ -20,8 +20,8 @@ class PromptPayQR extends Component {
     payCode: '',
     amount: 0,
     size: 128,
-    bgColor: 'black',
-    fgColor: 'white'
+    bgColor: '#000',
+    fgColor: '#FFF'
   }
   render() {
     const {style, size, bgColor, fgColor, payCode, amount } = this.props
